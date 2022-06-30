@@ -63,7 +63,7 @@ acl:
       - ::FFFF:127.0.0.1/128
   admin:
     user:
-      - "admin@localhost"
+      - "admin@ejabberd-20220630.eastus.cloudapp.azure.com"
 
 access_rules:
   local:
