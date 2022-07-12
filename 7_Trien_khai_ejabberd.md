@@ -100,7 +100,7 @@ A brief description of what this project does and who it's for
 ### Triển khai 
 - Anh chạy câu lệnh:
 ```
-    docker docker run -d --name ejabberd -v $(pwd)/ejabberd.yml:/home/ejabberd/conf/ejabberd.yml -v $(pwd)/privkey.pem:/home/ejabberd/conf/privkey.pem -v $(pwd)/fullchain.pem:/home/ejabberd/conf/fullchain.pem -p 5222:5222 -p 5443:5443 ejabberd/ecs
+    docker run -d --name ejabberd -v $(pwd)/ejabberd.yml:/home/ejabberd/conf/ejabberd.yml -v $(pwd)/privkey.pem:/home/ejabberd/conf/privkey.pem -v $(pwd)/fullchain.pem:/home/ejabberd/conf/fullchain.pem -p 5222:5222 -p 5443:5443 ejabberd/ecs
 ``` 
 * Diễn giải 
     - Khác với mục II. là ta sẽ mount thêm 2 file fullchain.pem và privkey.pem vào trong container 
