@@ -1,9 +1,4 @@
 
-# Project Title
-
-A brief description of what this project does and who it's for
-
-
 # Cách triển khai ejabberd lên docker 
 - Mục đích của bài viết này là nhằm giúp anh có thể tự triển khai ejabberd lên docker để anh có thể dev 
 - Image mà em sử dụng là ejabberd/ecs https://hub.docker.com/r/ejabberd/ecs
